@@ -34,6 +34,6 @@ public class AuthorController {
 
         model.addAttribute("authors", authorRepository.findAll());
 
-        return "authors/list";
+        return "/authors/listAuthors";
     }
 }
